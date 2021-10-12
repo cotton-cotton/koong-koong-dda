@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap');
+body {
+  font-family: 'Nanum Gothic Coding', monospace;
+}
+.container {
+  margin-top: 300px;
+}
+.participant-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.word-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -130px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.input-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  width: 130px;
+  height: 20px;
+}
+button {
+  margin-left: 5px;
+  height: 25px;
+}
+button:hover{
+  cursor: pointer;
+}
